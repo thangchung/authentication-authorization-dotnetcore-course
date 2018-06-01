@@ -1,0 +1,1707 @@
+2018-05-28 19:04:28.034 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-28 19:04:28.154 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-05-28 19:04:28.170 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-05-28 19:04:28.171 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-05-28 19:04:28.171 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-05-28 19:04:28.171 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-05-28 19:08:30.068 +07:00 [INF] AuthenticationScheme: idsrv was challenged.
+2018-05-28 19:08:36.170 +07:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-05-28 19:08:36.424 +07:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "bob",
+  "SubjectId": "88421113",
+  "DisplayName": "bob",
+  "Endpoint": "UI",
+  "ActivityId": "0HLE4ICL2VEFT:00000005",
+  "TimeStamp": "2018-05-28T12:08:36Z",
+  "ProcessId": 23932,
+  "LocalIpAddress": "127.0.0.1:31257",
+  "RemoteIpAddress": "::1"
+}
+2018-05-28 19:08:36.457 +07:00 [DBG] Augmenting SignInContext
+2018-05-28 19:08:36.461 +07:00 [DBG] Adding idp claim with value: local
+2018-05-28 19:08:36.461 +07:00 [DBG] Adding amr claim with value: pwd
+2018-05-28 19:08:36.479 +07:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-05-28 19:08:36.498 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:08:36.499 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:33.549 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-28 19:10:33.655 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-05-28 19:10:33.661 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-05-28 19:10:33.661 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-05-28 19:10:33.661 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-05-28 19:10:33.662 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-05-28 19:10:34.588 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:34.627 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:43.071 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:43.074 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:43.325 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:43.325 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:44.045 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:44.047 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:44.613 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:44.613 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:44.983 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:44.984 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:45.045 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:45.046 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:10:51.303 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-05-28 19:10:51.309 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-05-28 19:10:51.309 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-05-28 19:10:51.315 +07:00 [DBG] Start discovery request
+2018-05-28 19:10:51.807 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-05-28 19:10:51.808 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-05-28 19:10:51.808 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-05-28 19:10:51.814 +07:00 [DBG] Start key discovery request
+2018-05-28 19:10:52.418 +07:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-05-28 19:10:52.428 +07:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-05-28 19:10:52.429 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-05-28 19:10:52.442 +07:00 [DBG] Start token request.
+2018-05-28 19:10:52.451 +07:00 [DBG] Start client validation
+2018-05-28 19:10:52.460 +07:00 [DBG] Start parsing Basic Authentication secret
+2018-05-28 19:10:52.461 +07:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2018-05-28 19:10:52.461 +07:00 [DBG] Secret id found: client
+2018-05-28 19:10:52.507 +07:00 [DBG] client configuration validation for client client succeeded.
+2018-05-28 19:10:52.528 +07:00 [DBG] No matching hashed secret found.
+2018-05-28 19:10:52.529 +07:00 [DBG] Secret validators could not validate secret
+2018-05-28 19:10:52.588 +07:00 [INF] {
+  "Name": "Client Authentication Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1011,
+  "ClientId": "client",
+  "Message": "Invalid client secret",
+  "ActivityId": "0HLE4IG1TIMQL:00000004",
+  "TimeStamp": "2018-05-28T12:10:52Z",
+  "ProcessId": 26888,
+  "LocalIpAddress": "127.0.0.1:24401",
+  "RemoteIpAddress": "::1"
+}
+2018-05-28 19:10:52.588 +07:00 [ERR] Client secret validation failed for client: client.
+2018-05-28 19:12:00.773 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-28 19:12:00.867 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-05-28 19:12:00.875 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-05-28 19:12:00.875 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-05-28 19:12:00.875 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-05-28 19:12:00.875 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-05-28 19:12:02.270 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:02.351 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.499 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.499 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.499 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.499 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.571 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.572 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.612 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.612 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.650 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.651 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.828 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:08.828 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:12:28.694 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-05-28 19:12:28.701 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-05-28 19:12:28.701 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-05-28 19:12:28.708 +07:00 [DBG] Start discovery request
+2018-05-28 19:12:29.199 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-05-28 19:12:29.199 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-05-28 19:12:29.200 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-05-28 19:12:29.206 +07:00 [DBG] Start key discovery request
+2018-05-28 19:12:44.720 +07:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-05-28 19:12:44.731 +07:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-05-28 19:12:44.731 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-05-28 19:12:44.745 +07:00 [DBG] Start token request.
+2018-05-28 19:12:44.754 +07:00 [DBG] Start client validation
+2018-05-28 19:12:44.763 +07:00 [DBG] Start parsing Basic Authentication secret
+2018-05-28 19:12:44.764 +07:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2018-05-28 19:12:44.764 +07:00 [DBG] Secret id found: client
+2018-05-28 19:12:44.777 +07:00 [DBG] client configuration validation for client client succeeded.
+2018-05-28 19:12:44.794 +07:00 [DBG] No matching hashed secret found.
+2018-05-28 19:12:44.794 +07:00 [DBG] Secret validators could not validate secret
+2018-05-28 19:12:44.863 +07:00 [INF] {
+  "Name": "Client Authentication Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1011,
+  "ClientId": "client",
+  "Message": "Invalid client secret",
+  "ActivityId": "0HLE4IGRUOJMH:00000006",
+  "TimeStamp": "2018-05-28T12:12:44Z",
+  "ProcessId": 300,
+  "LocalIpAddress": "127.0.0.1:14052",
+  "RemoteIpAddress": "::1"
+}
+2018-05-28 19:12:44.863 +07:00 [ERR] Client secret validation failed for client: client.
+2018-05-28 19:14:27.016 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-28 19:14:27.075 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-05-28 19:14:27.081 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-05-28 19:14:27.082 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-05-28 19:14:27.082 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-05-28 19:14:27.082 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-05-28 19:14:27.922 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:27.962 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.216 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.217 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.217 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.218 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.283 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.283 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.323 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.323 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.367 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.368 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.425 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:33.425 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:14:48.175 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-05-28 19:14:48.184 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-05-28 19:14:48.185 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-05-28 19:14:48.191 +07:00 [DBG] Start discovery request
+2018-05-28 19:14:48.398 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-05-28 19:14:48.399 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-05-28 19:14:48.399 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-05-28 19:14:48.405 +07:00 [DBG] Start key discovery request
+2018-05-28 19:14:48.544 +07:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-05-28 19:14:48.554 +07:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-05-28 19:14:48.555 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-05-28 19:14:48.567 +07:00 [DBG] Start token request.
+2018-05-28 19:14:48.577 +07:00 [DBG] Start client validation
+2018-05-28 19:14:48.586 +07:00 [DBG] Start parsing Basic Authentication secret
+2018-05-28 19:14:48.587 +07:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2018-05-28 19:14:48.587 +07:00 [DBG] Secret id found: client
+2018-05-28 19:14:48.600 +07:00 [DBG] client configuration validation for client client succeeded.
+2018-05-28 19:14:48.617 +07:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-05-28 19:14:48.617 +07:00 [DBG] Client validation success
+2018-05-28 19:14:48.720 +07:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLE4II7FG3L6:00000006",
+  "TimeStamp": "2018-05-28T12:14:48Z",
+  "ProcessId": 11380,
+  "LocalIpAddress": "127.0.0.1:5227",
+  "RemoteIpAddress": "::1"
+}
+2018-05-28 19:14:48.797 +07:00 [DBG] Start token request validation
+2018-05-28 19:14:48.827 +07:00 [DBG] Start client credentials token request validation
+2018-05-28 19:14:48.928 +07:00 [DBG] client credentials token request validation success
+2018-05-28 19:14:48.953 +07:00 [INF] Token request validation success
+{
+  "ClientId": "client",
+  "ClientName": "Client Credentials Client",
+  "GrantType": "client_credentials",
+  "Scopes": "api1",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "api1"
+  }
+}
+2018-05-28 19:14:49.043 +07:00 [DBG] Getting claims for access token for client: client
+2018-05-28 19:14:49.211 +07:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "client",
+  "ClientName": "Client Credentials Client",
+  "Endpoint": "Token",
+  "Scopes": "api1",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****_Cfg"
+    }
+  ],
+  "ActivityId": "0HLE4II7FG3L6:00000006",
+  "TimeStamp": "2018-05-28T12:14:49Z",
+  "ProcessId": 11380,
+  "LocalIpAddress": "127.0.0.1:5227",
+  "RemoteIpAddress": "::1"
+}
+2018-05-28 19:14:49.214 +07:00 [DBG] Token request success.
+2018-05-28 19:18:12.896 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-28 19:18:12.959 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-05-28 19:18:12.964 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-05-28 19:18:12.965 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-05-28 19:18:12.965 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-05-28 19:18:12.965 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-05-28 19:18:13.685 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:13.722 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.534 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.534 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.534 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.535 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.723 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.723 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.780 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.780 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.828 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.828 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.858 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:19.859 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:56.821 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-05-28 19:18:56.828 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-05-28 19:18:56.828 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-05-28 19:18:56.836 +07:00 [DBG] Start discovery request
+2018-05-28 19:18:57.721 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-05-28 19:18:57.722 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-05-28 19:18:57.722 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-05-28 19:18:57.729 +07:00 [DBG] Start key discovery request
+2018-05-28 19:18:57.939 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:57.939 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:57.939 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-28 19:18:57.947 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-28 19:18:57.947 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-28 19:18:57.955 +07:00 [DBG] Start authorize request
+2018-05-28 19:18:57.979 +07:00 [DBG] User in authorize request: 88421113
+2018-05-28 19:18:57.998 +07:00 [DBG] Start authorize request protocol validation
+2018-05-28 19:18:58.025 +07:00 [DBG] client configuration validation for client mvc.implicit succeeded.
+2018-05-28 19:18:58.067 +07:00 [ERR] Invalid redirect_uri: http://localhost:44077/signin-oidc
+{
+  "ClientId": "mvc.implicit",
+  "ClientName": "SPA Client",
+  "AllowedRedirectUris": [
+    "http://localhost:44077/"
+  ],
+  "SubjectId": "88421113",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "mvc.implicit",
+    "redirect_uri": "http://localhost:44077/signin-oidc",
+    "response_type": "id_token",
+    "scope": "openid profile email",
+    "response_mode": "form_post",
+    "nonce": "636631067378957190.ZjcyNTRjMzItYTAxOC00ZGEyLTg2YzUtNDVkYWM0N2M3ZmM3OWU2Nzk3MjQtNzRiMC00YmQ5LWE4MjEtMWUwZmU3ODk1MmRk",
+    "state": "CfDJ8BqGe8AkRNtLm-E5dBFKVWPmOYCypa8RDbbAJuwUqyTIEEX08SFPFINkCmxWHiyHtFyhAH1J5U0QtwzksZCCbRdcHy5WUhrzRAQ8h7ywvqfBG1DB0ZMcWh2t5iWaBOo3Me0RbkBZ2_Py0-eOk39mWj9-gfrl61Vfmb3lnt-1Bs4ioj2-GTEnGgH0xQBCXngPhoFkrBfrf9X63LbuuVxLIUEDwcZb1K8KQrpRSXWNDcbp3VtV8RFhtxGwev3uVvs6My87SbA6MHpgLHabLQM0IOux_WVi14WzpRmtcU13t_L-OhwDzgutC8rnx4dohNjKUgzxiNGomGn4XYVEWKnMf94",
+    "x-client-SKU": "ID_NET",
+    "x-client-ver": "2.1.4.0"
+  }
+}
+2018-05-28 19:18:58.082 +07:00 [ERR] Request validation failed
+2018-05-28 19:18:58.083 +07:00 [INF] {
+  "ClientId": "mvc.implicit",
+  "ClientName": "SPA Client",
+  "AllowedRedirectUris": [
+    "http://localhost:44077/"
+  ],
+  "SubjectId": "88421113",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "mvc.implicit",
+    "redirect_uri": "http://localhost:44077/signin-oidc",
+    "response_type": "id_token",
+    "scope": "openid profile email",
+    "response_mode": "form_post",
+    "nonce": "636631067378957190.ZjcyNTRjMzItYTAxOC00ZGEyLTg2YzUtNDVkYWM0N2M3ZmM3OWU2Nzk3MjQtNzRiMC00YmQ5LWE4MjEtMWUwZmU3ODk1MmRk",
+    "state": "CfDJ8BqGe8AkRNtLm-E5dBFKVWPmOYCypa8RDbbAJuwUqyTIEEX08SFPFINkCmxWHiyHtFyhAH1J5U0QtwzksZCCbRdcHy5WUhrzRAQ8h7ywvqfBG1DB0ZMcWh2t5iWaBOo3Me0RbkBZ2_Py0-eOk39mWj9-gfrl61Vfmb3lnt-1Bs4ioj2-GTEnGgH0xQBCXngPhoFkrBfrf9X63LbuuVxLIUEDwcZb1K8KQrpRSXWNDcbp3VtV8RFhtxGwev3uVvs6My87SbA6MHpgLHabLQM0IOux_WVi14WzpRmtcU13t_L-OhwDzgutC8rnx4dohNjKUgzxiNGomGn4XYVEWKnMf94",
+    "x-client-SKU": "ID_NET",
+    "x-client-ver": "2.1.4.0"
+  }
+}
+2018-05-28 19:18:58.296 +07:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "mvc.implicit",
+  "ClientName": "SPA Client",
+  "Endpoint": "Authorize",
+  "SubjectId": "88421113",
+  "Scopes": "",
+  "Error": "unauthorized_client",
+  "ErrorDescription": "Invalid redirect_uri",
+  "ActivityId": "0HLE4IKAP0N87:00000006",
+  "TimeStamp": "2018-05-28T12:18:58Z",
+  "ProcessId": 27340,
+  "LocalIpAddress": "127.0.0.1:5717",
+  "RemoteIpAddress": "::1"
+}
+2018-05-28 19:18:58.412 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:18:58.412 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:25.872 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-28 19:21:25.943 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-05-28 19:21:25.952 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-05-28 19:21:25.953 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-05-28 19:21:25.953 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-05-28 19:21:25.953 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-05-28 19:21:26.592 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:26.624 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:52.444 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-05-28 19:21:52.453 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-05-28 19:21:52.453 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-05-28 19:21:52.461 +07:00 [DBG] Start discovery request
+2018-05-28 19:21:53.411 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-05-28 19:21:53.412 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-05-28 19:21:53.413 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-05-28 19:21:53.419 +07:00 [DBG] Start key discovery request
+2018-05-28 19:21:53.762 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:53.762 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:53.762 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-28 19:21:53.770 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-28 19:21:53.770 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-28 19:21:53.779 +07:00 [DBG] Start authorize request
+2018-05-28 19:21:53.809 +07:00 [DBG] User in authorize request: 88421113
+2018-05-28 19:21:53.821 +07:00 [DBG] Start authorize request protocol validation
+2018-05-28 19:21:53.856 +07:00 [DBG] client configuration validation for client mvc.implicit succeeded.
+2018-05-28 19:21:53.895 +07:00 [ERR] Invalid redirect_uri: http://localhost:44077/signin-oidc
+{
+  "ClientId": "mvc.implicit",
+  "ClientName": "mvc.implicit",
+  "AllowedRedirectUris": [
+    "http://localhost:44077/"
+  ],
+  "SubjectId": "88421113",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "mvc.implicit",
+    "redirect_uri": "http://localhost:44077/signin-oidc",
+    "response_type": "id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636631069137076150.NTcyOWQzOGItNDFjNi00MDcxLTllZjgtMjY1MjllNmUwNjZlMjBjZGYzNzYtZDAxNy00MGExLThmYmYtNzg2OGE3ODg1YTBh",
+    "state": "CfDJ8BqGe8AkRNtLm-E5dBFKVWO4A5egI5aYCE2k4TvRozGKz6Xuqaog7sHKcbLveNi9o6FnzopLKY0XxxAhkCaRI0DQ831Ch3GoWZVp7siA7FDEv7QOpFGgE2M1H4S42dLTd7ocGppXztyOMEJqTW5WDR5Iud72I8oRXresHk4sViLktWYEZ-8rHb1tq4LMUSHEie1C6706bkTgsd6aq6Qhi8bWlqJHrpfdt7-brhUzftDwLBNe1l7AmWRWRyFZ-ktpN_4xZEqzBEX7XtFGOf6UlpS-a53g1364a44zhxiA7feJiFyk_MEhlbZKTIZhkeg1HSAZI8rSgJyVTmGZIY6gZ24",
+    "x-client-SKU": "ID_NET",
+    "x-client-ver": "2.1.4.0"
+  }
+}
+2018-05-28 19:21:53.902 +07:00 [ERR] Request validation failed
+2018-05-28 19:21:53.902 +07:00 [INF] {
+  "ClientId": "mvc.implicit",
+  "ClientName": "mvc.implicit",
+  "AllowedRedirectUris": [
+    "http://localhost:44077/"
+  ],
+  "SubjectId": "88421113",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "mvc.implicit",
+    "redirect_uri": "http://localhost:44077/signin-oidc",
+    "response_type": "id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636631069137076150.NTcyOWQzOGItNDFjNi00MDcxLTllZjgtMjY1MjllNmUwNjZlMjBjZGYzNzYtZDAxNy00MGExLThmYmYtNzg2OGE3ODg1YTBh",
+    "state": "CfDJ8BqGe8AkRNtLm-E5dBFKVWO4A5egI5aYCE2k4TvRozGKz6Xuqaog7sHKcbLveNi9o6FnzopLKY0XxxAhkCaRI0DQ831Ch3GoWZVp7siA7FDEv7QOpFGgE2M1H4S42dLTd7ocGppXztyOMEJqTW5WDR5Iud72I8oRXresHk4sViLktWYEZ-8rHb1tq4LMUSHEie1C6706bkTgsd6aq6Qhi8bWlqJHrpfdt7-brhUzftDwLBNe1l7AmWRWRyFZ-ktpN_4xZEqzBEX7XtFGOf6UlpS-a53g1364a44zhxiA7feJiFyk_MEhlbZKTIZhkeg1HSAZI8rSgJyVTmGZIY6gZ24",
+    "x-client-SKU": "ID_NET",
+    "x-client-ver": "2.1.4.0"
+  }
+}
+2018-05-28 19:21:53.963 +07:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "mvc.implicit",
+  "ClientName": "mvc.implicit",
+  "Endpoint": "Authorize",
+  "SubjectId": "88421113",
+  "Scopes": "",
+  "Error": "unauthorized_client",
+  "ErrorDescription": "Invalid redirect_uri",
+  "ActivityId": "0HLE4IM49IECI:00000004",
+  "TimeStamp": "2018-05-28T12:21:53Z",
+  "ProcessId": 29168,
+  "LocalIpAddress": "127.0.0.1:12097",
+  "RemoteIpAddress": "::1"
+}
+2018-05-28 19:21:54.034 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.034 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.456 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.456 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.466 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.466 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.564 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.564 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.614 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.614 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.654 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:54.654 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:58.651 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:58.651 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:58.652 +07:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2018-05-28 19:21:58.655 +07:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2018-05-28 19:21:58.656 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2018-05-28 19:21:58.665 +07:00 [DBG] Processing signout request for 88421113
+2018-05-28 19:21:58.679 +07:00 [DBG] Start end session request validation
+2018-05-28 19:21:58.700 +07:00 [INF] End session request validation success
+{
+  "SubjectId": "88421113",
+  "Raw": {
+    "post_logout_redirect_uri": "http://localhost:44077/signout-callback-oidc",
+    "state": "CfDJ8BqGe8AkRNtLm-E5dBFKVWMu21i0aMPwCORCqn2BLhOxb622O0vB5cTsywLqiLZC4BSuqdns2Q5sxa0P0zLz4ZEezAEPaLtYsUrzlY-SPkjouaxhoS6DPKDuLPty8x7hvAoHWgtY_EfBXxQ_-wxCVZAew27PKmYNmFe8_zeTN7tF",
+    "x-client-SKU": "ID_NET",
+    "x-client-ver": "2.1.4.0"
+  }
+}
+2018-05-28 19:21:58.700 +07:00 [DBG] Success validating end session request from null
+2018-05-28 19:21:58.737 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:21:58.737 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:22:01.852 +07:00 [DBG] CORS request made for path: /account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-05-28 19:22:01.853 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:22:01.853 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-05-28 19:22:01.920 +07:00 [INF] AuthenticationScheme: idsrv signed out.
+2018-05-28 19:22:01.932 +07:00 [INF] {
+  "Name": "User Logout Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1002,
+  "SubjectId": "88421113",
+  "DisplayName": "bob",
+  "ActivityId": "0HLE4IM49IECJ:00000004",
+  "TimeStamp": "2018-05-28T12:22:01Z",
+  "ProcessId": 29168,
+  "LocalIpAddress": "127.0.0.1:12097",
+  "RemoteIpAddress": "::1"
+}
+2018-05-28 19:22:14.957 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-28 19:22:14.957 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-28 19:22:14.957 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-28 19:22:14.957 +07:00 [DBG] Start authorize request
+2018-05-28 19:22:14.958 +07:00 [DBG] No user present in authorize request
+2018-05-28 19:22:14.958 +07:00 [DBG] Start authorize request protocol validation
+2018-05-28 19:22:14.959 +07:00 [DBG] client configuration validation for client mvc.implicit succeeded.
+2018-05-28 19:22:14.959 +07:00 [ERR] Invalid redirect_uri: http://localhost:44077/signin-oidc
+{
+  "ClientId": "mvc.implicit",
+  "ClientName": "mvc.implicit",
+  "AllowedRedirectUris": [
+    "http://localhost:44077/"
+  ],
+  "SubjectId": "anonymous",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "mvc.implicit",
+    "redirect_uri": "http://localhost:44077/signin-oidc",
+    "response_type": "id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636631069349238762.ZmFlNGI1NWYtOWQ3Yi00ZGYwLWIwMjAtNGEyN2Q2OTNhZjZlMWIzODM4MmYtY2Q5MC00NWQwLWI1MzMtZWY4OGFiMDcwZTk0",
+    "state": "CfDJ8BqGe8AkRNtLm-E5dBFKVWOr6w0BTyCAULv1ieSz5UoWtM7lG-d3BuDlF02AmUJduDubFEPn7ijg_Pml6ukBT1yaDIoBOMt_jqvunrvYkWrqbUAyZ4xSqmura3PFEK4g4_zW7EzaV4XNalzZQakGDQeP1nCx9-OyEeroDWYhM-fOWY7oGk9oJ8IDAasfiL9wb7ipIuCbqr20aFfFCgdsPLEOwRcOK58BV8vh-KEfDw5kA5ZnKJ2lpglCLKxqOeZpLsSjA28TUwwKxoglNVQivsEfpFlivLcRMP66ucLjlSzLNEmahlAV84mOi1S5Mss2d00i5h8u24yv8uX02pvkt9o",
+    "x-client-SKU": "ID_NET",
+    "x-client-ver": "2.1.4.0"
+  }
+}
+2018-05-28 19:22:14.960 +07:00 [ERR] Request validation failed
+2018-05-28 19:22:14.960 +07:00 [INF] {
+  "ClientId": "mvc.implicit",
+  "ClientName": "mvc.implicit",
+  "AllowedRedirectUris": [
+    "http://localhost:44077/"
+  ],
+  "SubjectId": "anonymous",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "mvc.implicit",
+    "redirect_uri": "http://localhost:44077/signin-oidc",
+    "response_type": "id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636631069349238762.ZmFlNGI1NWYtOWQ3Yi00ZGYwLWIwMjAtNGEyN2Q2OTNhZjZlMWIzODM4MmYtY2Q5MC00NWQwLWI1MzMtZWY4OGFiMDcwZTk0",
+    "state": "CfDJ8BqGe8AkRNtLm-E5dBFKVWOr6w0BTyCAULv1ieSz5UoWtM7lG-d3BuDlF02AmUJduDubFEPn7ijg_Pml6ukBT1yaDIoBOMt_jqvunrvYkWrqbUAyZ4xSqmura3PFEK4g4_zW7EzaV4XNalzZQakGDQeP1nCx9-OyEeroDWYhM-fOWY7oGk9oJ8IDAasfiL9wb7ipIuCbqr20aFfFCgdsPLEOwRcOK58BV8vh-KEfDw5kA5ZnKJ2lpglCLKxqOeZpLsSjA28TUwwKxoglNVQivsEfpFlivLcRMP66ucLjlSzLNEmahlAV84mOi1S5Mss2d00i5h8u24yv8uX02pvkt9o",
+    "x-client-SKU": "ID_NET",
+    "x-client-ver": "2.1.4.0"
+  }
+}
+2018-05-28 19:22:14.960 +07:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "mvc.implicit",
+  "ClientName": "mvc.implicit",
+  "Endpoint": "Authorize",
+  "Scopes": "",
+  "Error": "unauthorized_client",
+  "ErrorDescription": "Invalid redirect_uri",
+  "ActivityId": "0HLE4IM49IECJ:00000005",
+  "TimeStamp": "2018-05-28T12:22:14Z",
+  "ProcessId": 29168,
+  "LocalIpAddress": "127.0.0.1:12097",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 10:55:36.267 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 10:55:36.577 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 10:55:36.588 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 10:55:36.588 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 10:55:36.588 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 10:55:36.588 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 10:55:55.136 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-06-01 10:55:55.156 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-06-01 10:55:55.157 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-06-01 10:55:55.186 +07:00 [DBG] Start authorize request
+2018-06-01 10:55:55.242 +07:00 [DBG] No user present in authorize request
+2018-06-01 10:55:55.263 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:55:55.310 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:55:55.444 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:55:55.644 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 10:55:55.663 +07:00 [INF] Showing login: User is not authenticated
+2018-06-01 10:55:55.903 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:55:55.904 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:55:55.904 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:55:55.911 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:01.510 +07:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 10:56:01.617 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:56:01.617 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:01.617 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:56:01.692 +07:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "bob",
+  "SubjectId": "88421113",
+  "DisplayName": "bob",
+  "Endpoint": "UI",
+  "ActivityId": "0HLE7EE4JTAJ0:00000004",
+  "TimeStamp": "2018-06-01T03:56:01Z",
+  "ProcessId": 33464,
+  "LocalIpAddress": "127.0.0.1:23915",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 10:56:01.726 +07:00 [DBG] Augmenting SignInContext
+2018-06-01 10:56:01.731 +07:00 [DBG] Adding idp claim with value: local
+2018-06-01 10:56:01.731 +07:00 [DBG] Adding amr claim with value: pwd
+2018-06-01 10:56:01.763 +07:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-06-01 10:56:01.766 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:01.788 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:01.788 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:01.789 +07:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-06-01 10:56:01.791 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-06-01 10:56:01.792 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-06-01 10:56:01.802 +07:00 [DBG] Start authorize callback request
+2018-06-01 10:56:01.810 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 10:56:01.810 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:56:01.810 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:01.810 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:56:01.811 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 10:56:01.813 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 10:56:01.840 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 10:56:01.841 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 10:56:01.841 +07:00 [INF] Showing consent: User has not yet consented
+2018-06-01 10:56:01.859 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:01.859 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:01.925 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:56:01.925 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:01.925 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:56:01.925 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:02.984 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:02.984 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:05.246 +07:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 10:56:05.247 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:05.248 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:05.329 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:56:05.329 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:05.330 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:56:05.361 +07:00 [INF] {
+  "Name": "Consent granted",
+  "Category": "Grants",
+  "EventType": "Information",
+  "Id": 4000,
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RequestedScopes": [
+    "sample_api_scope"
+  ],
+  "GrantedScopes": [
+    "sample_api_scope"
+  ],
+  "ConsentRemembered": true,
+  "ActivityId": "0HLE7EE4JTAIU:00000006",
+  "TimeStamp": "2018-06-01T03:56:05Z",
+  "ProcessId": 33464,
+  "LocalIpAddress": "127.0.0.1:23915",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 10:56:05.404 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:05.420 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:05.421 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:56:05.421 +07:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-06-01 10:56:05.421 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-06-01 10:56:05.422 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-06-01 10:56:05.422 +07:00 [DBG] Start authorize callback request
+2018-06-01 10:56:05.473 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 10:56:05.474 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:56:05.474 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:56:05.474 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:56:05.474 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 10:56:05.474 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 10:56:05.474 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 10:56:05.475 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 10:56:05.496 +07:00 [INF] User consented to scopes: ["sample_api_scope"]
+2018-06-01 10:56:05.553 +07:00 [DBG] User indicated to remember consent for scopes: ["sample_api_scope"]
+2018-06-01 10:56:05.572 +07:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 88421113
+2018-06-01 10:56:05.613 +07:00 [DBG] Creating Implicit Flow response.
+2018-06-01 10:56:05.632 +07:00 [DBG] Getting claims for access token for client: swagger
+2018-06-01 10:56:05.633 +07:00 [DBG] Getting claims for access token for subject: 88421113
+2018-06-01 10:56:05.642 +07:00 [DBG] Get profile called for subject 88421113 from client swagger with claim types ["role","admin","user"] via ClaimsProviderAccessToken
+2018-06-01 10:56:05.647 +07:00 [DBG] Issued claims: []
+2018-06-01 10:56:05.795 +07:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "Endpoint": "Authorize",
+  "SubjectId": "88421113",
+  "Scopes": "sample_api_scope",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****zUyQ"
+    }
+  ],
+  "ActivityId": "0HLE7EE4JTAIV:00000006",
+  "TimeStamp": "2018-06-01T03:56:05Z",
+  "ProcessId": 33464,
+  "LocalIpAddress": "127.0.0.1:23915",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 10:56:05.805 +07:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "State": "oauth2",
+  "Scope": "sample_api_scope"
+}
+2018-06-01 10:56:05.840 +07:00 [DBG] Augmenting SignInContext
+2018-06-01 10:56:05.840 +07:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-06-01 10:57:14.894 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 10:57:15.160 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 10:57:15.197 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 10:57:15.197 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 10:57:15.198 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 10:57:15.199 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 10:57:16.660 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:16.713 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:51.731 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:51.732 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:51.742 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-06-01 10:57:52.018 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-06-01 10:57:52.019 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-06-01 10:57:52.030 +07:00 [DBG] Start authorize request
+2018-06-01 10:57:52.053 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 10:57:52.064 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:57:52.107 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:57:52.272 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:57:52.545 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 10:57:52.570 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 10:57:52.615 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 10:57:52.617 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 10:57:52.617 +07:00 [INF] Showing consent: User has not yet consented
+2018-06-01 10:57:52.746 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:52.746 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:53.087 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:57:53.090 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:57:53.090 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:57:53.094 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:57:58.379 +07:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 10:57:58.379 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:58.380 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:58.517 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:57:58.517 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:57:58.517 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:57:58.590 +07:00 [INF] {
+  "Name": "Consent granted",
+  "Category": "Grants",
+  "EventType": "Information",
+  "Id": 4000,
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RequestedScopes": [
+    "sample_api_scope"
+  ],
+  "GrantedScopes": [
+    "sample_api_scope"
+  ],
+  "ConsentRemembered": true,
+  "ActivityId": "0HLE7EF1OR1FL:00000003",
+  "TimeStamp": "2018-06-01T03:57:58Z",
+  "ProcessId": 24464,
+  "LocalIpAddress": "127.0.0.1:22744",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 10:57:58.641 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:57:58.663 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:58.663 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:57:58.663 +07:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-06-01 10:57:58.664 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-06-01 10:57:58.665 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-06-01 10:57:58.676 +07:00 [DBG] Start authorize callback request
+2018-06-01 10:57:58.727 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 10:57:58.730 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 10:57:58.730 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 10:57:58.731 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 10:57:58.732 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 10:57:58.732 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 10:57:58.733 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 10:57:58.733 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 10:57:58.765 +07:00 [INF] User consented to scopes: ["sample_api_scope"]
+2018-06-01 10:57:58.785 +07:00 [DBG] User indicated to remember consent for scopes: ["sample_api_scope"]
+2018-06-01 10:57:58.790 +07:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 88421113
+2018-06-01 10:57:58.813 +07:00 [DBG] Creating Implicit Flow response.
+2018-06-01 10:57:58.836 +07:00 [DBG] Getting claims for access token for client: swagger
+2018-06-01 10:57:58.837 +07:00 [DBG] Getting claims for access token for subject: 88421113
+2018-06-01 10:57:58.845 +07:00 [DBG] Get profile called for subject 88421113 from client swagger with claim types ["role","admin","user"] via ClaimsProviderAccessToken
+2018-06-01 10:57:58.850 +07:00 [DBG] Issued claims: []
+2018-06-01 10:57:58.978 +07:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "Endpoint": "Authorize",
+  "SubjectId": "88421113",
+  "Scopes": "sample_api_scope",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****AGVA"
+    }
+  ],
+  "ActivityId": "0HLE7EF1OR1FM:00000003",
+  "TimeStamp": "2018-06-01T03:57:58Z",
+  "ProcessId": 24464,
+  "LocalIpAddress": "127.0.0.1:22744",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 10:57:58.991 +07:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "State": "oauth2",
+  "Scope": "sample_api_scope"
+}
+2018-06-01 10:59:56.233 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 10:59:56.314 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 10:59:56.321 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 10:59:56.321 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 10:59:56.321 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 10:59:56.321 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 10:59:57.782 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 10:59:57.834 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:04:22.817 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 11:04:22.932 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 11:04:22.945 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 11:04:22.945 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 11:04:22.945 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 11:04:22.945 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 11:04:25.135 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:04:25.175 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:05:33.771 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 11:05:33.869 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 11:05:33.878 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 11:05:33.878 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 11:05:33.879 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 11:05:33.879 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 11:05:35.765 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:05:35.835 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:10:37.638 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 11:10:37.752 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 11:10:37.768 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 11:10:37.769 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 11:10:37.769 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 11:10:37.770 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 11:10:39.257 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:10:39.308 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:12.190 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 11:17:12.293 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 11:17:12.306 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 11:17:12.306 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 11:17:12.306 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 11:17:12.306 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 11:17:14.374 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:14.412 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:41.499 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:41.500 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:41.508 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-06-01 11:17:41.528 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-06-01 11:17:41.529 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-06-01 11:17:41.545 +07:00 [DBG] Start authorize request
+2018-06-01 11:17:41.588 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 11:17:41.611 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:17:41.648 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:17:41.772 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:17:41.923 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 11:17:41.947 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 11:17:41.970 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 11:17:41.970 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 11:17:41.970 +07:00 [INF] Showing consent: User has not yet consented
+2018-06-01 11:17:42.000 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:42.000 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:42.195 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:17:42.195 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:17:42.196 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:17:42.200 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:17:48.237 +07:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 11:17:48.238 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:48.238 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:48.384 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:17:48.385 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:17:48.385 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:17:48.470 +07:00 [INF] {
+  "Name": "Consent granted",
+  "Category": "Grants",
+  "EventType": "Information",
+  "Id": 4000,
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RequestedScopes": [
+    "sample_api_scope"
+  ],
+  "GrantedScopes": [
+    "sample_api_scope"
+  ],
+  "ConsentRemembered": true,
+  "ActivityId": "0HLE7EQ6OGDR7:00000003",
+  "TimeStamp": "2018-06-01T04:17:48Z",
+  "ProcessId": 26336,
+  "LocalIpAddress": "127.0.0.1:28831",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 11:17:48.528 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:17:48.550 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:48.551 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:17:48.551 +07:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-06-01 11:17:48.552 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-06-01 11:17:48.552 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-06-01 11:17:48.567 +07:00 [DBG] Start authorize callback request
+2018-06-01 11:17:48.627 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 11:17:48.627 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:17:48.627 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:17:48.628 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:17:48.628 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 11:17:48.628 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 11:17:48.629 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 11:17:48.629 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 11:17:48.654 +07:00 [INF] User consented to scopes: ["sample_api_scope"]
+2018-06-01 11:17:48.685 +07:00 [DBG] User indicated to remember consent for scopes: ["sample_api_scope"]
+2018-06-01 11:17:48.694 +07:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 88421113
+2018-06-01 11:17:48.739 +07:00 [DBG] Creating Implicit Flow response.
+2018-06-01 11:17:48.764 +07:00 [DBG] Getting claims for access token for client: swagger
+2018-06-01 11:17:48.765 +07:00 [DBG] Getting claims for access token for subject: 88421113
+2018-06-01 11:17:48.779 +07:00 [DBG] Get profile called for subject 88421113 from client swagger with claim types ["role","admin","user"] via ClaimsProviderAccessToken
+2018-06-01 11:17:48.784 +07:00 [DBG] Issued claims: []
+2018-06-01 11:17:48.980 +07:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "Endpoint": "Authorize",
+  "SubjectId": "88421113",
+  "Scopes": "sample_api_scope",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****ANUQ"
+    }
+  ],
+  "ActivityId": "0HLE7EQ6OGDR8:00000003",
+  "TimeStamp": "2018-06-01T04:17:48Z",
+  "ProcessId": 26336,
+  "LocalIpAddress": "127.0.0.1:28831",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 11:17:48.992 +07:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "State": "oauth2",
+  "Scope": "sample_api_scope"
+}
+2018-06-01 11:17:49.854 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-06-01 11:17:49.858 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-06-01 11:17:49.859 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-06-01 11:17:49.865 +07:00 [DBG] Start discovery request
+2018-06-01 11:17:50.003 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-06-01 11:17:50.004 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-06-01 11:17:50.004 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-06-01 11:17:50.011 +07:00 [DBG] Start key discovery request
+2018-06-01 11:18:56.414 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 11:18:56.506 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 11:18:56.514 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 11:18:56.514 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 11:18:56.515 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 11:18:56.515 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 11:18:58.578 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:18:58.623 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:09.509 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 11:21:09.750 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 11:21:09.770 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 11:21:09.770 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 11:21:09.771 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 11:21:09.771 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 11:21:11.519 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:11.647 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:20.193 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:20.194 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:20.203 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-06-01 11:21:20.216 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-06-01 11:21:20.217 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-06-01 11:21:20.241 +07:00 [DBG] Start authorize request
+2018-06-01 11:21:20.292 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 11:21:20.319 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:21:20.375 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:21:20.591 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:21:20.848 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 11:21:20.911 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 11:21:20.967 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 11:21:20.967 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 11:21:20.967 +07:00 [INF] Showing consent: User has not yet consented
+2018-06-01 11:21:21.105 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:21.106 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:21.478 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:21:21.479 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:21:21.480 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:21:21.486 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:21:25.375 +07:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 11:21:25.376 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:25.376 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:25.533 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:21:25.533 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:21:25.534 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:21:25.619 +07:00 [INF] {
+  "Name": "Consent granted",
+  "Category": "Grants",
+  "EventType": "Information",
+  "Id": 4000,
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RequestedScopes": [
+    "sample_api_scope"
+  ],
+  "GrantedScopes": [
+    "sample_api_scope"
+  ],
+  "ConsentRemembered": true,
+  "ActivityId": "0HLE7ESDDEOA4:00000003",
+  "TimeStamp": "2018-06-01T04:21:25Z",
+  "ProcessId": 23352,
+  "LocalIpAddress": "127.0.0.1:20780",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 11:21:25.674 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:21:25.695 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:25.695 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:21:25.695 +07:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-06-01 11:21:25.697 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-06-01 11:21:25.697 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-06-01 11:21:25.709 +07:00 [DBG] Start authorize callback request
+2018-06-01 11:21:25.751 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 11:21:25.751 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:21:25.751 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:21:25.752 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:21:25.752 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 11:21:25.752 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 11:21:25.752 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 11:21:25.753 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 11:21:25.775 +07:00 [INF] User consented to scopes: ["sample_api_scope"]
+2018-06-01 11:21:25.798 +07:00 [DBG] User indicated to remember consent for scopes: ["sample_api_scope"]
+2018-06-01 11:21:25.806 +07:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 88421113
+2018-06-01 11:21:25.841 +07:00 [DBG] Creating Implicit Flow response.
+2018-06-01 11:21:25.861 +07:00 [DBG] Getting claims for access token for client: swagger
+2018-06-01 11:21:25.862 +07:00 [DBG] Getting claims for access token for subject: 88421113
+2018-06-01 11:21:25.873 +07:00 [DBG] Get profile called for subject 88421113 from client swagger with claim types ["role","admin","user"] via ClaimsProviderAccessToken
+2018-06-01 11:21:25.877 +07:00 [DBG] Issued claims: []
+2018-06-01 11:21:26.001 +07:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "Endpoint": "Authorize",
+  "SubjectId": "88421113",
+  "Scopes": "sample_api_scope",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****DDAg"
+    }
+  ],
+  "ActivityId": "0HLE7ESDDEOA5:00000003",
+  "TimeStamp": "2018-06-01T04:21:25Z",
+  "ProcessId": 23352,
+  "LocalIpAddress": "127.0.0.1:20780",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 11:21:26.017 +07:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "State": "oauth2",
+  "Scope": "sample_api_scope"
+}
+2018-06-01 11:21:26.775 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-06-01 11:21:26.780 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-06-01 11:21:26.780 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-06-01 11:21:26.789 +07:00 [DBG] Start discovery request
+2018-06-01 11:21:26.908 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-06-01 11:21:26.909 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-06-01 11:21:26.909 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-06-01 11:21:26.916 +07:00 [DBG] Start key discovery request
+2018-06-01 11:22:16.035 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 11:22:16.230 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 11:22:16.258 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 11:22:16.258 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 11:22:16.258 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 11:22:16.259 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 11:22:17.901 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:17.932 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:27.060 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:27.061 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:27.071 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-06-01 11:22:27.137 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-06-01 11:22:27.138 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-06-01 11:22:27.155 +07:00 [DBG] Start authorize request
+2018-06-01 11:22:27.214 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 11:22:27.227 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:22:27.288 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:22:27.484 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:22:27.820 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 11:22:27.844 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 11:22:27.900 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 11:22:27.901 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 11:22:27.901 +07:00 [INF] Showing consent: User has not yet consented
+2018-06-01 11:22:28.395 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:28.395 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:28.965 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:22:28.966 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:22:28.967 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:22:28.973 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:22:32.167 +07:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 11:22:32.168 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:32.168 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:32.289 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:22:32.289 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:22:32.289 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:22:32.357 +07:00 [INF] {
+  "Name": "Consent granted",
+  "Category": "Grants",
+  "EventType": "Information",
+  "Id": 4000,
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RequestedScopes": [
+    "sample_api_scope"
+  ],
+  "GrantedScopes": [
+    "sample_api_scope"
+  ],
+  "ConsentRemembered": true,
+  "ActivityId": "0HLE7ET17D7F2:00000003",
+  "TimeStamp": "2018-06-01T04:22:32Z",
+  "ProcessId": 8468,
+  "LocalIpAddress": "127.0.0.1:9280",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 11:22:32.403 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:22:32.431 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:32.431 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 11:22:32.432 +07:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-06-01 11:22:32.433 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-06-01 11:22:32.433 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-06-01 11:22:32.448 +07:00 [DBG] Start authorize callback request
+2018-06-01 11:22:32.496 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 11:22:32.496 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 11:22:32.496 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 11:22:32.496 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 11:22:32.497 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "9fcc7c7ea5742f7870c3b39a88e6bd92",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 11:22:32.497 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 11:22:32.497 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 11:22:32.497 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 11:22:32.520 +07:00 [INF] User consented to scopes: ["sample_api_scope"]
+2018-06-01 11:22:32.540 +07:00 [DBG] User indicated to remember consent for scopes: ["sample_api_scope"]
+2018-06-01 11:22:32.549 +07:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 88421113
+2018-06-01 11:22:32.579 +07:00 [DBG] Creating Implicit Flow response.
+2018-06-01 11:22:32.597 +07:00 [DBG] Getting claims for access token for client: swagger
+2018-06-01 11:22:32.599 +07:00 [DBG] Getting claims for access token for subject: 88421113
+2018-06-01 11:22:32.608 +07:00 [DBG] Get profile called for subject 88421113 from client swagger with claim types ["role","admin","user"] via ClaimsProviderAccessToken
+2018-06-01 11:22:32.612 +07:00 [DBG] Issued claims: []
+2018-06-01 11:22:32.749 +07:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "Endpoint": "Authorize",
+  "SubjectId": "88421113",
+  "Scopes": "sample_api_scope",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****pikw"
+    }
+  ],
+  "ActivityId": "0HLE7ET17D7F1:00000003",
+  "TimeStamp": "2018-06-01T04:22:32Z",
+  "ProcessId": 8468,
+  "LocalIpAddress": "127.0.0.1:9280",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 11:22:32.760 +07:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "State": "oauth2",
+  "Scope": "sample_api_scope"
+}
+2018-06-01 11:22:33.603 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-06-01 11:22:33.608 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-06-01 11:22:33.608 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-06-01 11:22:33.613 +07:00 [DBG] Start discovery request
+2018-06-01 11:22:33.731 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-06-01 11:22:33.732 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-06-01 11:22:33.732 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-06-01 11:22:33.738 +07:00 [DBG] Start key discovery request
+2018-06-01 15:32:29.022 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 15:32:29.209 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 15:32:29.222 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 15:32:29.223 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 15:32:29.223 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 15:32:29.223 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 15:32:31.488 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:32:31.588 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:33:39.821 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 15:33:40.107 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 15:33:40.120 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 15:33:40.120 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 15:33:40.120 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 15:33:40.120 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 15:33:45.402 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:33:45.485 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:38:39.700 +07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-06-01 15:38:39.810 +07:00 [DBG] Using idsrv as default scheme for authentication
+2018-06-01 15:38:39.821 +07:00 [DBG] Using idsrv as default scheme for sign-in
+2018-06-01 15:38:39.822 +07:00 [DBG] Using idsrv as default scheme for sign-out
+2018-06-01 15:38:39.822 +07:00 [DBG] Using idsrv as default scheme for challenge
+2018-06-01 15:38:39.822 +07:00 [DBG] Using idsrv as default scheme for forbid
+2018-06-01 15:38:42.337 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:38:42.435 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:38:57.491 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:38:57.492 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:39:00.815 +07:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 15:39:00.816 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:39:00.817 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:39:01.044 +07:00 [INF] AuthenticationScheme: idsrv signed out.
+2018-06-01 15:39:01.171 +07:00 [INF] {
+  "Name": "User Logout Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1002,
+  "SubjectId": "88421113",
+  "DisplayName": "bob",
+  "ActivityId": "0HLE7JCA176EK:00000002",
+  "TimeStamp": "2018-06-01T08:39:01Z",
+  "ProcessId": 32436,
+  "LocalIpAddress": "127.0.0.1:17748",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 15:39:02.366 +07:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2018-06-01 15:39:02.390 +07:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2018-06-01 15:39:02.391 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2018-06-01 15:39:02.404 +07:00 [DBG] Processing signout callback request
+2018-06-01 15:39:02.569 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:39:02.569 +07:00 [DBG] No client front-channel logout URLs
+2018-06-01 15:39:02.570 +07:00 [DBG] No client back-channel logout URLs
+2018-06-01 15:39:02.570 +07:00 [INF] Successful signout callback.
+2018-06-01 15:39:02.570 +07:00 [DBG] No client front-channel iframe urls
+2018-06-01 15:39:02.570 +07:00 [DBG] No client back-channel iframe urls
+2018-06-01 15:39:09.894 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-06-01 15:39:09.900 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-06-01 15:39:09.900 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-06-01 15:39:09.908 +07:00 [DBG] Start discovery request
+2018-06-01 15:42:42.626 +07:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-06-01 15:42:42.633 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-06-01 15:42:42.634 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-06-01 15:42:42.642 +07:00 [DBG] Start authorize request
+2018-06-01 15:42:42.655 +07:00 [DBG] No user present in authorize request
+2018-06-01 15:42:42.677 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 15:42:42.692 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:42:42.863 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 15:42:42.903 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 15:42:42.922 +07:00 [INF] Showing login: User is not authenticated
+2018-06-01 15:42:43.071 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 15:42:43.071 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:42:43.072 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 15:42:43.080 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:28.140 +07:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 15:43:28.228 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 15:43:28.228 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:28.229 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 15:43:28.252 +07:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "bob",
+  "SubjectId": "88421113",
+  "DisplayName": "bob",
+  "Endpoint": "UI",
+  "ActivityId": "0HLE7JCA176EO:00000002",
+  "TimeStamp": "2018-06-01T08:43:28Z",
+  "ProcessId": 32436,
+  "LocalIpAddress": "127.0.0.1:17748",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 15:43:28.283 +07:00 [DBG] Augmenting SignInContext
+2018-06-01 15:43:28.287 +07:00 [DBG] Adding idp claim with value: local
+2018-06-01 15:43:28.287 +07:00 [DBG] Adding amr claim with value: pwd
+2018-06-01 15:43:28.301 +07:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-06-01 15:43:28.305 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:28.328 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:28.329 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:28.329 +07:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-06-01 15:43:28.331 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-06-01 15:43:28.331 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-06-01 15:43:28.353 +07:00 [DBG] Start authorize callback request
+2018-06-01 15:43:28.361 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 15:43:28.361 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 15:43:28.361 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:28.362 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 15:43:28.362 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "4fe3e9015207cf03a2c5ce54f1d312c0",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 15:43:28.368 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 15:43:28.419 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 15:43:28.419 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 15:43:28.419 +07:00 [INF] Showing consent: User has not yet consented
+2018-06-01 15:43:28.464 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:28.466 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:28.544 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 15:43:28.544 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:28.544 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 15:43:28.544 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:29.343 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:29.343 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:49.918 +07:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-01 15:43:49.918 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:49.919 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:49.996 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 15:43:49.996 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:49.996 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 15:43:50.018 +07:00 [INF] {
+  "Name": "Consent granted",
+  "Category": "Grants",
+  "EventType": "Information",
+  "Id": 4000,
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RequestedScopes": [
+    "sample_api_scope"
+  ],
+  "GrantedScopes": [
+    "sample_api_scope"
+  ],
+  "ConsentRemembered": true,
+  "ActivityId": "0HLE7JCA176EM:00000006",
+  "TimeStamp": "2018-06-01T08:43:50Z",
+  "ProcessId": 32436,
+  "LocalIpAddress": "127.0.0.1:17748",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 15:43:50.054 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:50.085 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:50.085 +07:00 [INF] AuthenticationScheme: idsrv was successfully authenticated.
+2018-06-01 15:43:50.085 +07:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-06-01 15:43:50.085 +07:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-06-01 15:43:50.085 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-06-01 15:43:50.086 +07:00 [DBG] Start authorize callback request
+2018-06-01 15:43:50.097 +07:00 [DBG] User in authorize request: 88421113
+2018-06-01 15:43:50.099 +07:00 [DBG] Start authorize request protocol validation
+2018-06-01 15:43:50.100 +07:00 [DBG] client configuration validation for client swagger succeeded.
+2018-06-01 15:43:50.101 +07:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-06-01 15:43:50.101 +07:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "AllowedRedirectUris": [
+    "http://localhost:65389/swagger/o2c.html"
+  ],
+  "SubjectId": "88421113",
+  "ResponseType": "token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "sample_api_scope",
+  "State": "oauth2",
+  "SessionId": "4fe3e9015207cf03a2c5ce54f1d312c0",
+  "Raw": {
+    "response_type": "token",
+    "redirect_uri": "http://localhost:65389/swagger/o2c.html",
+    "realm": "swagger",
+    "client_id": "swagger",
+    "scope": "sample_api_scope",
+    "state": "oauth2"
+  }
+}
+2018-06-01 15:43:50.101 +07:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-06-01 15:43:50.101 +07:00 [DBG] user_consent grant with value: swagger|88421113 not found in store.
+2018-06-01 15:43:50.101 +07:00 [DBG] Found no prior consent from consent store, consent is required
+2018-06-01 15:43:50.127 +07:00 [INF] User consented to scopes: ["sample_api_scope"]
+2018-06-01 15:43:50.155 +07:00 [DBG] User indicated to remember consent for scopes: ["sample_api_scope"]
+2018-06-01 15:43:50.162 +07:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 88421113
+2018-06-01 15:43:50.202 +07:00 [DBG] Creating Implicit Flow response.
+2018-06-01 15:43:50.219 +07:00 [DBG] Getting claims for access token for client: swagger
+2018-06-01 15:43:50.221 +07:00 [DBG] Getting claims for access token for subject: 88421113
+2018-06-01 15:43:50.230 +07:00 [DBG] Get profile called for subject 88421113 from client swagger with claim types ["role","admin","user"] via ClaimsProviderAccessToken
+2018-06-01 15:43:50.236 +07:00 [DBG] Issued claims: []
+2018-06-01 15:43:50.424 +07:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "swagger",
+  "ClientName": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "Endpoint": "Authorize",
+  "SubjectId": "88421113",
+  "Scopes": "sample_api_scope",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****oK0A"
+    }
+  ],
+  "ActivityId": "0HLE7JCA176EN:00000004",
+  "TimeStamp": "2018-06-01T08:43:50Z",
+  "ProcessId": 32436,
+  "LocalIpAddress": "127.0.0.1:17748",
+  "RemoteIpAddress": "::1"
+}
+2018-06-01 15:43:50.439 +07:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "88421113",
+  "ClientId": "swagger",
+  "RedirectUri": "http://localhost:65389/swagger/o2c.html",
+  "State": "oauth2",
+  "Scope": "sample_api_scope"
+}
+2018-06-01 15:43:50.483 +07:00 [DBG] Augmenting SignInContext
+2018-06-01 15:43:50.483 +07:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-06-01 15:43:51.386 +07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-06-01 15:43:51.386 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-06-01 15:43:51.386 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-06-01 15:43:51.387 +07:00 [DBG] Start discovery request
+2018-06-01 15:43:51.593 +07:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-06-01 15:43:51.594 +07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-06-01 15:43:51.594 +07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-06-01 15:43:51.606 +07:00 [DBG] Start key discovery request
